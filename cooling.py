@@ -1,3 +1,14 @@
+""" 
+
+File: cooling.py 
+  
+Copyright (c) 2016 Lucas Blair 
+  
+License: MIT 
+  
+This code computes the final temperature of any temperature of tea after any amount of minutes placed in a room of any temperature. Kinda confusing but still really cool. 
+  
+""" 
 
 t_str = raw_input("Enter the current temperature of the tea!:")
 t = int(t_str)
@@ -19,13 +30,3 @@ while i < m:
     print '{}       {}'.format(i , t)
 #Its kind of a table haha
 
-"""
-File: cooling.py
-
-Copyright (c) 2016 Lucas Blair
-
-License: MIT
-
-This code computes the final temperature of any temperature of tea after any amount of minutes placed in a room of any temperature. Kinda confusing but still really cool.
-
-"""    
