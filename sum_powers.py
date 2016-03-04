@@ -1,3 +1,14 @@
+"""
+File: sum_powers.py
+
+Copyright (c) 2016 Lucas Blair
+
+License: MIT
+
+This code finds the value of b^n and the value of b^((n+1)/(b-1))
+
+"""    
+
 import math
 
 b_str = input ("Enter a base number:")
@@ -18,14 +29,3 @@ while i <= n:
 print "The result is %d" %sum
 
 print "The second part of the problem is %d" %(pow (b, ((n+1)/(b-1))))
-
-"""
-File: sum_powers.py
-
-Copyright (c) 2016 Lucas Blair
-
-License: MIT
-
-This code finds the value of b^n and the value of b^((n+1)/(b-1))
-
-"""    
